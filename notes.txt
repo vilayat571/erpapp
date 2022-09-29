@@ -1,0 +1,27 @@
+Get current page pathname in React JS - window.location.pathname;
+Dropdown on React JS -
+    <label >
+        <select className=' w-3/4 h-10 bg-[#4c4c4d]
+                 outline-none border-nono text-[#ffffff]
+                  shadow-md mt-4 rounded-sm py-2 text-sm px-3' id={dealer} value={dealer} onChange={(e) => handleDelaer(e)}>
+            {
+                options.length > 1 && options.map((option) => (
+                    option.asa !== "" && <option className=' hover:bg-[#4c4c4d] text-white ' key={option.id} value={option.asa}>{option.asa}</option>
+                ))
+            }
+        </select>
+    </label>
+Hide scrollbar - @layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+
+   headers: {'Authorization': `Bearer ${token}`},
+
